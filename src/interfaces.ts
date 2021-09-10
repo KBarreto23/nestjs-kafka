@@ -8,7 +8,7 @@ import {
   ConsumerRunConfig,
   Transaction,
   RecordMetadata,
-} from 'kafkajs';
+} from '@kbarreto23/nestjskafka';
 import { ModuleMetadata, Type } from '@nestjs/common';
 
 export interface KafkaResponse<T = any> {
