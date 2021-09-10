@@ -1,5 +1,5 @@
 {
-  "name": "kafka-nestjs",
+  "name": "fixed-kafka-nestjs",
   "version": "1.4.1",
   "description": "KafkaJS integration with NestJS",
   "main": "dist/index.js",
@@ -34,7 +34,7 @@
     "@nestjs/common": "^7.6.17",
     "@nestjs/core": "^7.6.17",
     "@nestjs/microservices": "^7.6.17",
-    "kafkajs": "^1.15.0",
+    "@kbarreto23/nestjskafka": "^1.15.1",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.6.7"
   },
